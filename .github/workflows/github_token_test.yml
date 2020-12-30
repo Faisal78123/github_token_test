@@ -1,0 +1,9 @@
+name: github_token_test 
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  github_token_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
